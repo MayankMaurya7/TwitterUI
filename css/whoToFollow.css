@@ -1,0 +1,74 @@
+.who-to-follow {
+  background: rgba(0, 0, 0, 0.03);
+  max-width: 348px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+.who-to-follow h2 {
+  border-bottom: 1px solid rgb(230, 236, 240);
+  padding: 10px 15px;
+  margin: 0;
+  font-size: large;
+  font-weight: 900;
+}
+
+.who-to-follow .person {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid rgb(230, 236, 240);
+  padding: 10px 15px;
+  align-items: center;
+  box-sizing: border-box;
+}
+.who-to-follow .person:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+  cursor: pointer;
+}
+
+.who-to-follow .person img {
+  flex: 1;
+  border-radius: 50%;
+}
+
+.who-to-follow .person .name {
+  margin: auto 5px;
+  flex: 3;
+}
+.who-to-follow .person p {
+  margin: 0;
+}
+
+.who-to-follow .person button {
+  flex: 0.7;
+  color: rgba(29, 161, 242, 1);
+  font-weight: 900;
+  border-radius: 20px;
+  padding: 5px 15px;
+  border: rgba(29, 161, 242, 1) solid 1px;
+}
+
+.who-to-follow .person button:focus {
+  outline: none;
+}
+
+.who-to-follow .person button:hover {
+  background-color: rgba(29, 161, 242, 0.1);
+  cursor: pointer;
+}
+
+.show-more {
+  padding: 15px;
+}
+
+.show-more:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+  cursor: pointer;
+}
+
+.show-more a {
+  text-decoration: none;
+  color: rgba(29, 161, 242, 1);
+}

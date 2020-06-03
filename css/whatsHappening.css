@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.light-grey-text {
+  color: rgb(128, 130, 131);
+  font-size: small;
+}
+.bold-text {
+  font-weight: bold;
+}
+.whats-happening {
+  background: rgba(0, 0, 0, 0.03);
+  width: 348px;
+  border-radius: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+.whats-happening h2 {
+  border-bottom: 1px solid rgb(230, 236, 240);
+  padding: 10px 15px;
+  margin: 0;
+  font-size: large;
+  font-weight: 900;
+}
+
+.whats-happening .trend {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  border-bottom: 1px solid rgb(230, 236, 240);
+  padding: 10px 15px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.whats-happening .trend:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+  cursor: pointer;
+}
+
+.whats-happening .trend-text {
+  flex: 3;
+}
+.whats-happening .trend-box .trend svg {
+  align-self: flex-start;
+  flex: 0.15;
+  font-weight: lighter;
+  border-radius: 50px;
+  border: none;
+}
+
+.whats-happening .trend-box .trend svg:hover {
+  background-color: rgba(29, 161, 242, 0.2);
+  cursor: pointer;
+}
+
+.show-more {
+  padding: 15px;
+}
+
+.show-more a {
+  text-decoration: none;
+  color: rgba(29, 161, 242, 1);
+}
+.show-more:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+  cursor: pointer;
+}

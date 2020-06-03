@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.twitter-container {
+  display: flex;
+}
+.left-panel {
+  width: 10vw;
+  margin-right: 0px;
+  height: min-content;
+}
+
+.middle-panel {
+  width: 47vw;
+}
+
+.middle-panel .home-bar1 {
+  position: sticky;
+  top: 0;
+}
+.right-panel {
+  margin-left: 20px;
+  width: 43vw;
+  overflow: hidden;
+}
+.right-panel .search-box1,
+.right-panel .whats-Happening1 {
+  margin-bottom: 20px;
+}
