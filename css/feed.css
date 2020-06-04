@@ -29,13 +29,13 @@
   padding-bottom: 10px;
   margin: 0 5px;
 }
-.account-name {
+.account-nameP {
   display: flex;
-  padding-bottom: 5px;
 }
 .account-name p {
   padding-right: 5px;
 }
+
 #person_name {
   cursor: pointer;
 }
@@ -46,10 +46,14 @@
   border: none;
   height: 15px;
   width: 15px;
-  padding-left: 200px;
+  /* padding-left: 200px; */
   fill: rgb(118, 120, 121);
 }
-
+.account-name {
+  display: flex;
+  padding-bottom: 5px;
+  justify-content: space-between;
+}
 .account-name svg:hover {
   background-color: rgba(29, 161, 242, 0.2);
   cursor: pointer;
