@@ -1,8 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 .light-grey-text {
   color: rgb(128, 130, 131);
   font-size: small;
@@ -12,10 +7,8 @@
 }
 .whats-happening {
   background: rgba(0, 0, 0, 0.03);
-  width: 348px;
+  max-width: 30vw;
   border-radius: 15px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Ubuntu, "Helvetica Neue", sans-serif;
 }
 
 .whats-happening h2 {
